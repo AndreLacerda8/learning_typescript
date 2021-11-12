@@ -38,3 +38,9 @@ Mas é melhor usar módulo do que namespace, pois eles não ficam em global e ta
 ## Módulos
 No browser temos problema de trabalhar com eles, mas no Node não.
 Instalamos o systemJS pra executar no browser, mas poderiamos simplesmente rodar com ctrl+alt+n
+
+## Generics
+Serve para usarmos em alguns tipos mais genericos, mas sem perder toda a validação como quando usamos any
+
+## Decorators
+Para usar sem dar problema tem que ativar: "experimentalDecorators": true,

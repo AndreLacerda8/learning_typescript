@@ -34,4 +34,25 @@ let potencia = function (base, exp) {
     return Math.pow(base, exp);
 };
 console.log(potencia(2, 11));
+class RealA {
+    a() { }
+}
+class RealAB {
+    a() { }
+    b() { }
+}
+class RealABC {
+    a() { }
+    b() { }
+    c() { }
+}
+Object.prototype.log = function () {
+    console.log(this.toString());
+};
+const x = 2;
+const y = 3;
+const z = 4;
+x.log();
+y.log();
+z.log();
 //# sourceMappingURL=interfaces.js.map
